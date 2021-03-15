@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Столото сторис</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+</head>
+
+<body>
+  <div class="stories-slider">
+    <div class="slide slide-1">
+      <div class="image-wrapper">
+        <img class="image" src="images/1.png" alt="Амир Кахунов">
+      </div>
+    </div>
+    <div class="slide slide-2">
+      <div class="image-wrapper">
+        <img class="image" src="images/2.png" alt="Михаил Захаров">
+      </div>
+    </div>
+    <div class="slide slide-3">
+      <div class="image-wrapper">
+        <img class="image" src="images/3.png" alt="Алла Бондаревская">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script>
+    var slider = tns({
+      container: '.stories-slider',
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      gutter: 0,
+      controls: false,
+      nav: false,
+      autoplayButtonOutput: false,
+      autoplayHoverPause: false,
+      mode: 'gallery',
+      animateIn: 'tns-fadeIn',
+      animateOut: 'tns-fadeOut'
+    });
+  </script>
+</body>
+</html>
