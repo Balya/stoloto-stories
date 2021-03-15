@@ -40,9 +40,15 @@ body {
   display: flex;
   height: 100%;
   box-sizing: border-box;
-  padding: 10vh 14vw 20vh 14vw;
+  padding: 5vh 10vw 15vh 10vw;
   justify-content: center;
   align-items: center;
+}
+
+@media (orientation: landscape) {
+  .image-wrapper {
+    padding: 5vh 10vw 5vh 10vw;
+  }
 }
 
 .image {
