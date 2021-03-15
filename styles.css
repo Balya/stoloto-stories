@@ -24,30 +24,18 @@ body {
   height: 100%;
 }
 
-.slide-1 {
-  background-color: #C788DC;
-}
-
-.slide-2 {
-  background-color: #6EB557;
-}
-
-.slide-3 {
-  background-color: #D5871B;
-}
-
 .image-wrapper {
   display: flex;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 5vh 10vw 15vh 10vw;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 5vh 0 15vh 0;
 }
 
 @media (orientation: landscape) {
   .image-wrapper {
-    padding: 5vh 10vw 5vh 10vw;
+    padding: 5vh 0 5vh 0;
   }
 }
 
