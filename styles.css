@@ -40,7 +40,7 @@ body {
   display: flex;
   height: 100%;
   box-sizing: border-box;
-  padding: 10vh 10vw 25vh 10vw;
+  padding: 10vh 14vw 20vh 14vw;
   justify-content: center;
   align-items: center;
 }
